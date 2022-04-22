@@ -15,7 +15,7 @@ Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://git
   <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_4.png">
  </p>
  
- - **el identificador de la aplicación debe coincidir con la licencia asignada por Become**
+  3. El [`Bundle Identifier`](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) del proyecto debe coincidir con la licencia asignada al cliente 
 
 ## Agregar Frameowrk al proyecto
 Se debe agregar el archivo **BecomeDigitalV.framework**  en  las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
