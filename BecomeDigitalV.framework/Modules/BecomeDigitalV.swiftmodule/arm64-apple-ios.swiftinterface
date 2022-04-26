@@ -114,6 +114,7 @@ public struct ResponseIV {
   public var backImgData: Foundation.Data
   public var selfiImageData: Foundation.Data
   public var message: Swift.String
+  public var responseURL: Swift.String
   public var responseStatus: BecomeDigitalV.ResponseIV.typeEstatus
 }
 public struct BDIVConfig {

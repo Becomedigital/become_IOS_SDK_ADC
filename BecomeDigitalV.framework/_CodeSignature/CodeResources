@@ -66,7 +66,7 @@
 		</data>
 		<key>Model.momd/Model.mom</key>
 		<data>
-		TIdzikNvGVHJkyts072CScJjeJU=
+		eqV0tCviol/csG82/qqlux/p/vI=
 		</data>
 		<key>Model.momd/VersionInfo.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		DmKjt1Py7W0ptsC4kWcO9LH4NV8=
+		AuNcN5asonqf98O/PRNPV0ByAPk=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		4wT7vKU5CiGpQ/eBeV3oFg+0KcQ=
+		WwxNa7lQqB3s4fweotOot6wKURE=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		42baGmXi8YK18WqKxc/gpJIzj9o=
+		yeanNUS7BR0ylE8giYNLGPqu8hM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -244,7 +244,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BgmI4iyoEol9T+/2PFitvreK+EA3SH7ncveq9NP/urg=
+			65jFEPNiN9wHrOK983eHDWxXkEjnIU8/szG4g4i1Oc0=
 			</data>
 		</dict>
 		<key>Model.momd/VersionInfo.plist</key>
@@ -258,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OA6YS+QHNSNmK1JkmgqhjnNI/8jo1zDVcmnWPeBRnc=
+			VokzN/9gC01RCMvm5UI794dzRSYH192ssVugbq8xh/8=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -272,14 +272,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yEy/QBnJqA6f4JrwvxneAD53UWd/lIrMAYu4KNlEbHA=
+			ep74qlznvN/2ygbg68LSz+qHTcd7kHyk1bMBFK9BsY8=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7JJXWkB9aKrBOkaZxG7UQAmDybBgsGVRu+jGD/0VmIc=
+			u91JBePquT9EF19qPr1ggxCFbTou5Holg5HaYef5ytA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
