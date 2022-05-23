@@ -12,6 +12,7 @@ import MapKit
 import Microblink
 import Photos
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UserNotifications
@@ -114,7 +115,9 @@ public struct ResponseIV {
   public var backImgData: Foundation.Data
   public var selfiImageData: Foundation.Data
   public var message: Swift.String
-  public var responseURL: Swift.String
+  public var livenessScore: Swift.Double
+  public var qualityScore: Swift.Double
+  public var LivenessProbability: Swift.Double
   public var responseStatus: BecomeDigitalV.ResponseIV.typeEstatus
 }
 public struct BDIVConfig {

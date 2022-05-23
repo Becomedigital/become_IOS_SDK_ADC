@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		0z2ZMy2znAklPECtnaiPERgoXgw=
+		HVafClE6Z5SKHL0YTIS9SBYdGXY=
 		</data>
 		<key>CameraViewController.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9BnIXscQ8hGNDEyfWAVhUxscaKw=
+		JSpxwLloAVP43FUICrqesitB6rw=
 		</data>
 		<key>IntroDocumentCaptureViewController.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		AuNcN5asonqf98O/PRNPV0ByAPk=
+		mO/uS0gqOeN5ZzwSaaSLPO7ifBA=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WwxNa7lQqB3s4fweotOot6wKURE=
+		gVpPtXt64TQouzW/bmQZ6rFXNhY=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yeanNUS7BR0ylE8giYNLGPqu8hM=
+		vMYLKfnxW0x+9+mMJ4vub8vG1Uw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bZr7tPaak+Ld5QrVnQ1hrxWFe54=
+			8FpXtlhmAiBSns8WJn5fInyyZjs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w6PlTcngcNYQTuVCWJ36HQ/QoHE=
+			1lZY8mJX752M7rk8hKdJO0ierIs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M9t6iYCMb/fvec/cxXxl5w+DOOQ=
+			1lZY8mJX752M7rk8hKdJO0ierIs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QLpBCsGLWjl0A9b9OvnmEDgq8j99XFEhU/IKQxgqDyI=
+			EcXpCrlfXroNdNxvTfp3MAdZgT+UbcRv9VKHELbz34Y=
 			</data>
 		</dict>
 		<key>CameraViewController.nib</key>
@@ -258,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VokzN/9gC01RCMvm5UI794dzRSYH192ssVugbq8xh/8=
+			ScPJ55M3I4p5FbIs1oEtubJgjfqjBIDrFV5lyQ7KiEQ=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -272,14 +272,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ep74qlznvN/2ygbg68LSz+qHTcd7kHyk1bMBFK9BsY8=
+			mPBudrjlWdG+hOiglrA5MW6voNFRou8AUP1goxTXnwk=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u91JBePquT9EF19qPr1ggxCFbTou5Holg5HaYef5ytA=
+			14u8URtnq+jLlupc9N+9OB3Q8gV2Jt2akqaK+G3nbuc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -307,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vB2nrh9wPVqe/l1qC0rZkO4TSdBbY8HywbtaEPoexxo=
+			0H+/NWe9VIAegDl2H5D0avW5D+alllPdvc4sd8LWle8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -316,7 +316,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQr4qpkFCsy0rhFBDZhWSpnQerHRGXPk+0BmVnO64Ac=
+			12sgjxNnefqcIlvvqW9XcpoD8xHTBfCFAFhOm35m1gE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -325,7 +325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0P388fx+3LG+4whuMiD3pNjUubEwx2teYYxd5xSAeXk=
+			12sgjxNnefqcIlvvqW9XcpoD8xHTBfCFAFhOm35m1gE=
 			</data>
 			<key>optional</key>
 			<true/>
