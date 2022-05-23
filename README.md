@@ -98,41 +98,48 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
 ## Estructura para el retorno de la información
 Los siguientes parámetros permiten el retorno de la información capturada por el sistema:
 
-    id: Stringcreated_at: String 
-    company: String  
-    fullname: String 
-    birth: String  
-    document_type: String 
-    document_number: String 
-    face_match: Bool 
-    template: Bool 
-    alteration: Bool
-    watch_list: Bool 
-    comply_advantage_result: String 
-    comply_advantage_url: String 
-    verification_status: String 
-    device_model: String 
-    os_version: String 
-    browser_major: String 
-    browser_version: String 
-    ua: String device_type: String 
-    device_vendor: String 
-    os_name: String 
-    browser_name: String 
-    issuePlace: String 
-    emissionDate: String 
-    ageRange: String 
-    savingAccountsCount: String 
-    financialIndustryDebtsCount: String 
-    solidarityIndustryDebtsCount: String 
-    serviceIndustryDebtsCount: String
-    commercialIndustryDebtsCount: String 
-    ip: String 
-    frontImgUrl: String 
-    backImgUrl: String 
-    selfiImageUrl: String 
-    message: String 
-    responseStatus: typeEstatus 
+    public var id: String = ""
+    public var created_at: String  = ""
+    public var company: String  = ""
+    public var fullname: String  = ""
+    public var dni_number: String = ""
+    public var birth: String  = ""
+    public var document_type: String  = ""
+    public var document_number: String = ""
+    public var face_match: Bool = false
+    public var template: Bool = false
+    public var alteration: Bool = false
+    public var watch_list: Bool = false
+    public var comply_advantage_result: String  = ""
+    public var comply_advantage_url: String = ""
+    public var verification_status: String = ""
+    public var device_model: String = ""
+    public var os_version: String = ""
+    public var browser_major: String = ""
+    public var browser_version: String = ""
+    public var ua: String = ""
+    public var device_type: String = ""
+    public var device_vendor: String = ""
+    public var os_name: String = ""
+    public var browser_name: String = ""
+    public var issuePlace: String = ""
+    public var emissionDate: String = ""
+    public var ageRange: String = ""
+    public var savingAccountsCount: String = ""
+    public var financialIndustryDebtsCount: String = ""
+    public var solidarityIndustryDebtsCount: String = ""
+    public var serviceIndustryDebtsCount: String = ""
+    public var commercialIndustryDebtsCount: String = ""
+    public var ip: String = ""
+    public var frontImgUrlString: String = ""
+    public var backImgUrlString: String = ""
+    public var selfiImageUrlString: String = ""
+    public var frontImgData: Data = Data()
+    public var backImgData: Data = Data()
+    public var selfiImageData: Data = Data()
+    public var message: String = ""
+    public var responseURL: String = ""
+    public var responseStatus: typeEstatus = .PENDING
     
      
      typeEstatus {        
