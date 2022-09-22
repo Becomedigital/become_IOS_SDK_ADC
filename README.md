@@ -7,7 +7,7 @@ Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://git
 
 ## Agregar Blinkid al proyecto
 
- 1. Se debe agregar la librería **Microblink.xcframework** al proyecto,. 
+ 1. Se debe agregar la librería **Microblink.xcframework** al proyecto. 
 
  2. agregar archivo de texto **com.become.key.txt** con licencia
 
