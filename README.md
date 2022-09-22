@@ -27,7 +27,7 @@ Se debe agregar el archivo **BecomeDigitalV.framework**  en  las configuraciones
 Para el correcto funcionamiento de la SDK, se requiere el uso de los frameworks o librerías `Alamofire.framework` y `Microblink.xcframework`, los cuales se deben adicionar en la sección **framework, libraries, and embedded content**:
  
  <p align="center">
-  <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_2.png">
+  <img src="https://github.com/Becomedigital/become_IOS_SDK_ADC/blob/main/IMG_2.png">
 </p>
 
 ## Configuraciones dentro de info.plist 
