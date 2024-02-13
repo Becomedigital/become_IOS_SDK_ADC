@@ -1,7 +1,7 @@
 framework module BecomeDigitalV {
   umbrella header "BecomeDigitalV.h"
-
   export *
+
   module * { export * }
 }
 

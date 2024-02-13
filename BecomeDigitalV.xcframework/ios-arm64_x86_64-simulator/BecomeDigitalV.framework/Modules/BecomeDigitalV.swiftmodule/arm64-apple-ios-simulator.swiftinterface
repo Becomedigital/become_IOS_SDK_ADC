@@ -1,23 +1,26 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BecomeDigitalV
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 @_exported import BecomeDigitalV
 import CoreData
+import DeveloperToolsSupport
 import Foundation
 import ImageIO
 import MapKit
 import Microblink
 import Photos
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 extension UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) public func loadGif(name: Swift.String, bundle: Foundation.Bundle)
 }
@@ -30,10 +33,8 @@ extension UIKit.UIImage {
   @objc func BDIVResponseSuccess(bdivResult: Swift.AnyObject)
   @objc func BDIVResponseError(error: Swift.String)
 }
-public struct GlobalVariables : Swift.Codable {
+public struct GlobalVariables {
   public static var rootViewController: BecomeDigitalV.MainViewController?
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
 }
 extension BecomeDigitalV.Countries {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<BecomeDigitalV.Countries>
@@ -80,12 +81,13 @@ public struct ResponseIV {
   public var responseStatus: BecomeDigitalV.ResponseIV.typeEstatus
 }
 public struct BDIVConfig {
-  public init(clienId: Swift.String, clientSecret: Swift.String, contractId: Swift.String, validationTypes: Swift.String, userId: Swift.String, customerLogo: Swift.String)
+  public init(clienId: Swift.String, clientSecret: Swift.String, contractId: Swift.String, useFacialAuth: Swift.Bool, documenTypes: [BecomeDigitalV.DocumentType], userId: Swift.String, customerLogo: Swift.String)
   public let clienId: Swift.String
   public var customerLogo: Swift.String
   public let clientSecret: Swift.String
   public let contractId: Swift.String
-  public let validationTypes: Swift.String
+  public let useFacialAuth: Swift.Bool
+  public let documenTypes: [BecomeDigitalV.DocumentType]
   public let userId: Swift.String
 }
 @_hasMissingDesignatedInitializers public class CountriesView {
@@ -104,11 +106,21 @@ public struct BDIVConfig {
 public struct SuppliesModel {
   public init(bdivConfig: BecomeDigitalV.BDIVConfig)
 }
+public enum DocumentType : Swift.String {
+  case DNI
+  case PASSPORT
+  case DRIVERLICENSE
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class BDIVCallBack {
   public class var sharedInstance: BecomeDigitalV.BDIVCallBack {
     get
   }
-  weak public var delegate: BecomeDigitalV.BDIVDelegate?
+  weak public var delegate: (any BecomeDigitalV.BDIVDelegate)?
   public func register(bdivConfig: BecomeDigitalV.BDIVConfig)
   @objc deinit
 }
@@ -131,7 +143,7 @@ extension CoreData.NSPersistentStoreCoordinator {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MainViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) public var suppliesModel: BecomeDigitalV.SuppliesModel!
-  @_Concurrency.MainActor(unsafe) public var delegate: BecomeDigitalV.BDIVDelegate?
+  @_Concurrency.MainActor(unsafe) public var delegate: (any BecomeDigitalV.BDIVDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
@@ -139,5 +151,8 @@ extension CoreData.NSPersistentStoreCoordinator {
 }
 extension BecomeDigitalV.ResponseIV.typeEstatus : Swift.Equatable {}
 extension BecomeDigitalV.ResponseIV.typeEstatus : Swift.Hashable {}
+extension BecomeDigitalV.DocumentType : Swift.Equatable {}
+extension BecomeDigitalV.DocumentType : Swift.Hashable {}
+extension BecomeDigitalV.DocumentType : Swift.RawRepresentable {}
 extension CoreData.NSPersistentStoreCoordinator.CoordinatorError : Swift.Equatable {}
 extension CoreData.NSPersistentStoreCoordinator.CoordinatorError : Swift.Hashable {}

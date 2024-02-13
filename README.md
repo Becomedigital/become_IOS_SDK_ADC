@@ -49,28 +49,41 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
 
 **2. En el método **startSDKAction ()** de su **viewController** de aplicación, inicialice Become utilizando el siguiente fragmento de código:**
  
-      @IBAction func startSDKAction(_ sender: Any) {
-          let dateFormatter = DateFormatter()
-          dateFormatter.locale = Locale(identifier: "es_ES") // date user identification
-          dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
-          let userId = dateFormatter.string(from: Date()) // Se inicializa un único identificador
-          let bdivConfig = BDIVConfig(clienId: "acc_demo", clientSecret: "FKLDM63GPH89TISBXNZ4YJUE57WRQA25", contractId: "2", validationTypes: "VIDEO/PASSPORT/DNI/LICENSE", userId: userId, allowLibraryLoading: true, customerLogo: "")
-          BDIVCallBack.sharedInstance.delegate = self
-          BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
-      }
+         @IBAction func startSDKAction(_ sender: Any) {
+            // Se crea un formateador de fechas para generar un identificador único basado en la fecha y hora actual
+            let dateFormatter = DateFormatter()
+            dateFormatter.locale = Locale(identifier: "es_ES") // Configuración regional para la identificación de la fecha del usuario
+            dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
+            let userId = dateFormatter.string(from: Date()) // Se obtiene un identificador único
+
+            // Se configuran los parámetros necesarios para inicializar el objeto BDIVConfig
+            let bdivConfig = BDIVConfig(clienId: "TU_CLIENT_ID",
+                                        clientSecret: "TU_CLIENT_SECRET",
+                                        contractId: "TU_CONTRACT_ID",
+                                        useFacialAuth: true, // Indica si se debe utilizar la autenticación facial
+                                        documenTypes: [.PASSPORT, .DNI, .DRIVERLICENSE], // Tipos de documentos permitidos
+                                        userId: userId, // Identificador único del usuario
+                                        customerLogo: "") // Ruta al logo personalizado (opcional)
+
+            // Se establece el delegado para manejar las devoluciones de llamada del SDK
+            BDIVCallBack.sharedInstance.delegate = self
+
+            // Se registra la configuración del SDK con los parámetros especificados
+            BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
+        }
 
 
-      extension ViewController: BDIVDelegate{
-         func BDIVResponseSuccess(bdivResult: AnyObject) {
-             let idmResultFinal = bdivResult as! ResponseIV
-             print(String(describing: idmResultFinal))
+        extension ViewController: BDIVDelegate{
+             func BDIVResponseSuccess(bdivResult: AnyObject) {
+                 let idmResultFinal = bdivResult as! ResponseIV
+                 print(String(describing: idmResultFinal))
 
-         }
+             }
 
-         func BDIVResponseError(error: String) {
-             print(error)
-         }
-      }
+             func BDIVResponseError(error: String) {
+                 print(error)
+             }
+        }
 
 ## Respuesta de la SDK 
 **1. Estructura encargada de la definición del estado de validación exitoso:**
