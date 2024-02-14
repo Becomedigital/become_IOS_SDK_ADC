@@ -128,11 +128,12 @@ Los siguientes parámetros son necesarios para la activación de la SDK por lo t
 
 Parámetro | Valor
 ------------ | -------------
-validationTypes | ""
-clientSecret | ""
-clientID | ""
-contractID | ""
-userID  | ""
+documenTypes |  [.PASSPORT, .DNI, .DRIVERLICENSE]
+useFacialAuth | Bool
+clientSecret | String
+clientID | String
+contractID | String
+userID  | String
 
 Mostrará el siguiente error por consola:
 
