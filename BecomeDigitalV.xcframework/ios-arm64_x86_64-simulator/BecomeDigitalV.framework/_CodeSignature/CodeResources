@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ieuou5kbb+JdsbDCMxySCzebeWo=
+		TbtCZHLEbPuw+jv/EWB5yp3gCQQ=
 		</data>
 		<key>CameraViewController.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>IntroductionVideoViewController.nib</key>
 		<data>
-		duRTDmXS0hsJpohAtizh/87yvYU=
+		LY1euylgNyOTdBI8jkU2dMFG1zo=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		CTBpsUEPdJHWtDQECqr9N3NVEFs=
+		NcYX24H36e/uOp5OqW0PzoWXA5Y=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RbNBFnEr7+oyIqjYcJ8vJa7QpGQ=
+		L9FEcPmp5h4GoApaSh/fl8f0ccw=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CTBpsUEPdJHWtDQECqr9N3NVEFs=
+		NcYX24H36e/uOp5OqW0PzoWXA5Y=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RtDv+izKlLSxcFeUf5EF1RFn/lQ=
+		ZDP1mQ2lP9JgKqLOW2KED6hT2cg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -155,9 +155,9 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>liveness.gif</key>
+		<key>face-scanner.gif</key>
 		<data>
-		aE7OVTm5TDd8fvWlCGlOIb4Dhds=
+		UxJHqMIbxWV5uqUq0G3pMnmOSB0=
 		</data>
 		<key>load_init.gif</key>
 		<data>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PqpVty+t2l2bDven61Y55yT23zy6rsAQDlqNI3DigO4=
+			kCa5E+evCsMZFpNbO9BHyTpzioeC4VsifNlGCQHcfNk=
 			</data>
 		</dict>
 		<key>CameraViewController.nib</key>
@@ -258,7 +258,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zt4LriSgC+pfdzPFF6MPHs0Xme286wq1FBhCBMYtC9o=
+			cpc2X2/nTSCFlq2l+x8y7zy/vMuQwhIHeZ70FlHMV5s=
 			</data>
 		</dict>
 		<key>Localizable.strings</key>
@@ -293,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hshN0fFvh35Z4aOPrxRRsQezmxQu2t9NIYau5nQSISA=
+			3QR+QUWeL7I4gYPTKLGYy9gHpoRuQcVD00pvnTlkc/Y=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -321,14 +321,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ToerNErPgIeWfyF0/CkJFjOytWn0gq0koFzPlnEVnaY=
+			8ODcJtdccDFPTESgj/jrjV490+Ej3YDOe0uqj+zXgIU=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hshN0fFvh35Z4aOPrxRRsQezmxQu2t9NIYau5nQSISA=
+			3QR+QUWeL7I4gYPTKLGYy9gHpoRuQcVD00pvnTlkc/Y=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -356,7 +356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qNaFs5j3/UDjBzRSOC0EjUxs8duImg1WvcUZGgY9agM=
+			3eqiUv1zCcaHv8thrgrPjE8Fcs0pez696VE9BfzY7Fw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -407,11 +407,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>liveness.gif</key>
+		<key>face-scanner.gif</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			esooSvURJaFkNOx17ugIwqLp/g8lf6zOwkhBlx0XdhI=
+			82IPPTe9dVwYvxF6cMz+3HKYGQg8EGs9mSky+48VnYg=
 			</data>
 		</dict>
 		<key>load_init.gif</key>
